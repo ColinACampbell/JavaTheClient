@@ -24,7 +24,6 @@ public abstract class HttpClient implements ClientInterface {
             URL url = new URL(link);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("GET");
-
             try
             {
                 rd =  new BufferedReader(new InputStreamReader(conn.getInputStream()));
