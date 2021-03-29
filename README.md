@@ -1,6 +1,5 @@
 # JavaTheClient
-A collection of libraries/modules that I have wrote for other projects that
-can be used to interfere with the HTTP protocol directly or remotely
+A small library that makes it easier to carry out CRUD operations over HTTP for a Java Application
 
 ## Note
 The libraries are separated into Java packages
